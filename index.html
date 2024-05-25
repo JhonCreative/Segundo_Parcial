@@ -3,12 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <title>Universidad Salesina de Bolivia</title>
+  <link href='/assets/css/style.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <picture>
+          <img src="./assets/images/logo.svg" alt="" class="logo_image">
+        </picture>
+      </div>
+      <div class="menu">
+        <ul class="menu_list">
+          <li><a href="#">Informacion</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </div>
+      <div class="button">
+        <button class="button_inscrption">Inscribete</button>
+      </div>
+    </nav>
+  </header>
+  <main class="hero">
+    <article class="content">
+      <div class="description">
+        <p class="subtitle">Tu éxito comienza aquí</p>
+        <h2 class="title">Impulsando tu futuro</h2>
+        <h1 class="name_university">Universidad Salesiana de Bolivia</h1>
+      </div>
+      <div class="social_red">
+        <p class="name">Redes Sociales</p>
+        <div>
+<!-- Suggested code may be subject to a license. Learn more: ~LicenseLog:1653709083. -->
+          <a href="#"><img src="./assets/images/facebook.svg" alt="facebook" class="button_social"></a>
+          <a href="#"><img src="./assets/images/instagram.svg" alt="instagram" class="button_social"></a>
+          <a href="#"><img src="./assets/images/twitter.svg" alt="twitter" class="button_social"></a>
+        </div>
+      </div>
+    </article>
+    <section class="img_description">
+      <div class="img_principal">
+        <img src="./assets/images/img.jpg" alt="" class="img_principal">
+      </div>
+      <div class="carreras">
+        <div class="carrera">Ing. Sistemas</div>
+        <div class="carrera">Derecho</div>
+        <div class="carrera">Contabilidad</div>
+        <div class="carrera">Parvularia</div>
+        <div class="carrera">Ciencias de la educación</div>
+        <div class="carrera">Gatronomia</div>
+      </div>
+    </section>
+  </main>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
